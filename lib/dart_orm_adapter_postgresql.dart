@@ -84,7 +84,10 @@ class PostgresqlDBAdapter extends SQLAdapter with DBAdapter {
           dbTypeName = 'timestamp without time zone';
           break;
       }
+    } else {
+      if(dbTypeName == "json") dbTypeName = "jsonb";
     }
+    
 
     return dbTypeName;
   }
