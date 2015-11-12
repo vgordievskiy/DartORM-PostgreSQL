@@ -1,9 +1,10 @@
 name: dart_orm_adapter_postgresql
-version: 0.0.6
+version: 0.1.1
 description: >
   PostgreSQL adapter for DartORM
 author: Ustimenko Sergey <ustims@gmail.com>
 homepage: http://github.com/ustims/DartORM-PostgreSQL
 dependencies:
   dart_orm: any
+  logging: any
   postgresql: any

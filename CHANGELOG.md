@@ -1,3 +1,18 @@
+0.1.0
+-----
+
+- delete() implementation.
+
+0.0.9
+-----
+
+- postgresql package version constraint fix
+
+0.0.8
+-----
+
+- close() method added.
+
 0.0.6
 -----
 
